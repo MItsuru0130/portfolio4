@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing:border-box;
+	padding:0px;
+	margin:0px;
+}
+
+.clear{
+	clear:both;
+}
+/*ヘッダー親要素*/
+.container1 {
+	position:fixed;
+	width:100%;
+	height:100px;
+	display:flex;
+	background-color:#FFFFFF;
+	z-index:100;
+}
+
+.header-left {
+	width:230px;
+	font-weight:bold;
+}
+
+
+.fa-snowflake{
+	margin-top:20px;
+}
+
+.far span{
+	font-weight:bold;
+}
+
+.header-center {
+	margin-right:auto;
+	
+}
+
+.header-btn {
+	display:table-cell;
+	height:105px;
+	vertical-align:bottom;
+}
+
+.button {
+  	background-color: #333;
+ 	border: 2px solid #333;
+  	color: #fff;
+  	line-height: 50px;
+	padding:2px 10px;
+}
+.button:hover {
+ 	 background-color: #fff;
+ 	 border-color: #59b1eb;
+ 	 color: #59b1eb;
+}
+
+.iittla-btn {
+	margin-left:40px;
+	margin-right:120px;
+}
+
+.bonus-btn {
+	margin-left:120px;
+}
+
+.header-right{
+	margin-top:50px
+}
+/*ヘッダー　ここまで*/
+
+
+.background-image {
+	background-color:#6F6F6F; 
+	padding-top:100px;
+	background-size:cover;
+}
+
+.container2{
+	width:65%;
+	margin:auto;
+	background-color:#FFFFFF;
+	
+}
+
+.image{
+	float:left;
+	width:50%;
+}
+
+.title{
+	padding-top:30px;
+	padding-left:36px;
+}
+
+.bar1{
+	width:50%;
+}
+/*目次*/
+.tableOfContents {
+	padding-left:30px;
+	padding-top:30px;
+}
+
+.contents {
+	margin-top:10px;
+}
+
+.content {
+	list-style:inside;
+	list-style: none;
+	margin-bottom:20px;
+}
+/*目次　ここまで*/
+
+
+.brand-info {
+	margin-top:20px;
+}
+
+#iittala{
+	margin-top:-100px;
+	padding-top:100px;
+}
+
+.coordinate1 {
+	width:100%;
+}
+
+.iittala-info {
+	float:left;
+	width:50%;	
+}
+
+.iittala-colorVariation {
+	position:relative;
+}
+
+.iittala-slide{
+	display:none;
+}
+
+.iittala-slide img {
+	width:100%;
+}
+
+.active {
+	display:block;
+}
+
+.iittala-buttons {
+	position:relative;
+	text-align:center;
+	bottom:10px;
+}
+/*ボタンの形*/
+.iittala-button {
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	border:solid 0.5px #464646;
+	cursor:pointer;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	margin:auto;
+}
+
+button:focus{
+	outline:none;
+}
+/*ボタンの色設定*/
+.button1 {
+	background-color:#B3E0F7;
+}
+
+.button2 {
+	background-color: #060606;
+}
+
+.button3 {
+	background-color:#8A8A8A;
+}
+
+.button4 {
+	background-color: #FDABB5;
+}
+
+.button5 {
+	background-color:#8B0002;
+}
+
+.button6 {
+	background-color:#E3D5CE;
+}
+
+.button7 {
+	background-color:#FFB03E;
+}
+/*ボタンの色設定　ここまで*/
+
+.arabia {
+	width:100%;
+}
+
+.arabia-info {
+	float:left;
+	width:50%
+}
+
+.coordinate2 {
+	width:100%;
+	padding-top:60px;
+}
+
+.arabia-image {
+	width:100%;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@media (max-width: 1000px){
+
+/*ヘッダー全体の親要素*/
+	.container1{
+		background-color: #B1B1B1;
+	}
+/*名前と電話番号を非表示*/
+	.header-right {
+	display:none;
+	}
+/*ヘッダー中央部のボタン位置設定*/	
+	.iittla-btn {
+	margin-left:40px;
+	margin-right:75px;
+	}
+
+	.bonus-btn {
+	margin-left:75px;
+	}
+	
+/*名前と電話番号の高さ設定*/	
+	.header-right{
+	margin-top:50px
+	}
+		
+	.container2{
+		width:100%;
+	}
+}

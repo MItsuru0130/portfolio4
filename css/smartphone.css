@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@media (max-width: 670px){
+
+/*ヘッダー全体の親要素*/
+	.container1 {
+		height:60px;
+	}
+
+/*ヘッダー左部分のアイコンサイズ・位置設定*/
+	.far{
+		font-size:57px;
+		margin:1px;
+	}
+
+/*ヘッダー左部分の文字を非表示*/	
+	.far span{
+		display:none;
+	}
+
+/*ヘッダー中央部のページ内リンクボタン非表示*/	
+	.header-center {
+		display:none;
+	}
+	
+
+	.iittala-info {
+		width:100%;
+		text-align:center;
+	}
+	
+	.background-image {
+		padding-top:60px;
+	}
+	
+	.title{
+		padding-left:20px;
+	}
+	
+	.title h1{
+		font-size:20px;
+	}
+	
+	.bar1{
+		width:75%;
+	}
+	
+	.tableOfContents h2{
+		font-size:19px;
+	}
+	
+	.arabia-info{
+		width:100%;
+		text-align:center;
+	}
+	
+}
